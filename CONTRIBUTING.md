@@ -1,4 +1,4 @@
-# Contributing to `ngbp`
+# Contributing to `ngbp-sass`
 
 ## Getting Started
 
