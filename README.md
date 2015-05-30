@@ -1,4 +1,4 @@
-# [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) [![Build Status](https://api.travis-ci.org/ngbp/ngbp.png?branch=v0.3.2-release)](https://travis-ci.org/ngbp/ngbp)
+# [ngBoilerplate Sass]() [![Build Status]()]()
 
 An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 
@@ -9,19 +9,23 @@ An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 Install Node.js and then:
 
 ```sh
-$ git clone git://github.com/joshdmiller/ng-boilerplate
-$ cd ng-boilerplate
+$ git clone git://github.com/eoinobrien/ngbp-sass
+$ cd ngbp-sass
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
 $ bower install
 $ grunt watch
 ```
 
-Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
+Finally, open `file:///path/to/ngbp-sass/build/index.html` in your browser.
 
 Happy hacking!
 
 ## Purpose
+
+A fork of the fantastic [ngBoilerplate](https://github.com/ngbp/ngbp) by 
+[Josh David Miller](http://joshdavidmiller.com/). The main change over the 
+former is the use of Sass over LESS CSS.
 
 `ngBoilerplate` is designed to make life easy by providing a basic framework
 with which to kickstart AngularJS projects. It contains a best-practice
@@ -31,7 +35,7 @@ around: [Twitter Bootstrap](http://getbootstrap.com),
 [Angular UI](http://angular-ui.github.io),
 [Angular Bootstrap](http://angular-ui.github.io/bootstrap),
 [Font Awesome](http://fortawesome.github.com/Font-Awesome), and
-[LESS](http://lesscss.org). Lastly, it contains a sophisticated
+[Sass](http://sass-lang.com). Lastly, it contains a sophisticated
 [Grunt](http://gruntjs.org)-based build system to ensure maximum productivity.
 All you have to do is clone it and start coding!
 
@@ -82,8 +86,8 @@ ng-boilerplate/
   |  |  |- <static files>
   |  |- common/
   |  |  |- <reusable code>
-  |  |- less/
-  |  |  |- main.less
+  |  |- sass/
+  |  |  |- main.scss
   |- vendor/
   |  |- angular-bootstrap/
   |  |- bootstrap/
@@ -149,7 +153,7 @@ from GitHub, or merge the branch into your existing repository. Assuming you're
 starting from scratch, simply clone this repository using git:
 
 ```sh
-$ git clone git://github.com/joshdmiller/ng-boilerplate my-project-name
+$ git clone git://github.com/eoinobrien/ngbp-sass my-project-name
 $ cd my-project-name
 ```
 
@@ -375,5 +379,6 @@ through all the usual channels or you can open an issue on the GitHub page. If
 you're feeling ambitious, you can even submit a pull request - how thoughtful
 of you!
 
-So join the team! We're good people.
+Make sure to check out the [Contributing Guide](./CONTRIBUTING.md).
 
+So join the team! We're good people.
