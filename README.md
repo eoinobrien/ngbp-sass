@@ -1,4 +1,4 @@
-# [ngBoilerplate Sass]() [![Build Status]()]()
+# [ngBoilerplate Sass]() [![Build Status](https://travis-ci.org/eoinobrien/ngbp-sass.svg?branch=master)](https://travis-ci.org/eoinobrien/ngbp-sass)
 
 An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 
